@@ -1,0 +1,47 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(201, 201, 201, 0.278);
+}
+h1{
+    text-align: center;
+}
+.container{
+    text-align: center;
+    margin: auto;
+    width: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap:20px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px gray;
+}
+#bdate{
+    width: 70%;
+    height: 30px;
+    margin: auto;
+}
+#find{
+    width: 100px;
+    height: 30px;
+    margin: auto;
+    background-color: rgb(255, 153, 0);
+    border-radius: 5px;
+    border:none;
+    cursor: pointer;
+}
+#find:active{
+    transform: scale(0.9);
+    transition: all 400ms ease;
+}
+#bday{
+    color:rgba(255, 132, 0, 0.985)
+
+}
+@media screen and (max-width:500px) {
+    .container{
+    max-width: 250px;
+    }
+    
+}
